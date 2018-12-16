@@ -1,0 +1,168 @@
+body{
+	padding-top: 73px;
+}
+
+.logo{
+	width: 100px;
+}
+.container{
+	width: 1170px;
+	margin: 0 auto;
+}
+.header{
+	padding: 20px 0;
+	position: fixed;	
+	top: 0;
+	left: 0;
+	background-color:silver;
+	width: 100%;
+
+}
+.flex{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.nav-li{
+	margin-right: 10px;
+}
+.nav-li:last-child{
+	margin-right: 0;
+}
+.social{
+	font-size: 22px;
+	color: #3d58a6;
+	
+}
+.social:hover{
+	color: #fff;
+}
+
+.social-li::after{
+	content: "";
+	width: 2px;
+	height: 22px;
+	display: inline-block;
+	background: #3D58A6;
+	margin: 0 20px;
+	vertical-align: top;
+}
+.active::after{
+	display: none;
+}
+.red-bg{
+	background-color: #ee4036;
+	padding: 30px 0;
+}
+.contact-title{
+	color: #fff;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+.container iframe{
+	width: 100%;
+}
+.map-bg{
+	background-color: #e6e6e6;
+	padding: 30px 0; 
+}
+.form-bg{
+	background-color: #363e97;
+	padding: 40px 0;
+	
+}
+.row{
+	padding-bottom: 60px;
+}
+.left-box{
+	color: #fff;
+	font-size: 21px;
+	padding-left: 100px;
+	padding-right: 55px;
+}
+
+.form-wrapper{
+	display: flex;
+}
+.form{
+	display: flex;
+	flex-direction: column;
+}
+.form-group{
+	display: flex;
+	flex-direction: column;
+	padding-bottom: 20px;
+}
+.input{
+	width: 630px;
+	background-color: transparent;
+	border: 1px solid #fff;
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-bottom: 20px;
+	color: #fff;
+	font-size: 14px;
+
+}
+
+.right-box{
+	padding-right: 150px;
+}
+.last{
+	height: 97px;
+}
+.label{
+	font-size: 20px;
+	color: #fff;
+	padding-bottom: 15px;
+	text-transform: capitalize;
+	padding-left: 25px;
+}
+.send{
+	background-color: #EE4036;
+	color: #fff;
+	padding: 15px 45px;
+	border: none;
+
+}
+.bg{
+	width: 130px;
+}
+
+footer
+
+.grey-bg{
+	background-color: #E6E6E6;
+	width: 100%;
+	height: 90px;
+}
+	
+.img{
+	height: 21px;
+}
+.social-share{
+	display: flex;
+	float: right;
+}
+.social-share-li{
+	margin-left: 7px;
+	margin-top: 35px;
+	margin-bottom: 35px;
+}
+.h5{
+	padding: 30px 0;
+	font-size: 12px;
+	color: #333333;
+	display: inline-block;
+
+}
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
+.clear{
+	clear: both;
+}
